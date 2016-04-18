@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en-us" class="no-js">
   <head>
     <meta charset="utf-8" />
     <title>Numbler.js</title>
-    <link rel="stylesheet" href="style.min.css" />
+    <link rel="stylesheet" href="assets/style.min.css" />
     <meta name="viewport"         content="width=device-width, minimum-scale=1, initial-scale=1" />
     <style>
       /* demo styling */
@@ -14,7 +14,9 @@
   <body>
 
     <article class="demo">
-      <h1>Numbler.js</h1>
+      <h1>
+        Numbler.js
+      </h1>
       <p>
         Numbler.js is a small jQuery plug-in <em>(1,082 bytes minified)</em> and CSS file <em>(1,692 bytes minified)</em> that allows for greater consistency and control over the experience and styling of the number input, across browsers.
       </p>
@@ -29,66 +31,70 @@
         </h2>
 
         <div class="examples">
-<div class="form-row">
-  <label for="unique_ID">
-    Label:
-  </label>
-  <div class="number-input-area">
-    <input type="number"
-           id="unique_ID"
-           name="unique_ID"
-           min="-10"
-           step="1"
-           class="js-numbler" />
+          <div class="form-row">
+            <label for="unique_ID">
+              Label:
+            </label>
+            <div class="number-input-area">
+              <input type="number"
+                     id="unique_ID"
+                     name="unique_ID"
+                     min="-10"
+                     step="1"
+                     class="js-numbler" />
 
-    <div class="btn-pill-area btn-pill-area--numbers">
-      <button type="button" class="btn js-num-up" aria-controls="unique_ID">
-        <span class="is-visually-hidden">Increase</span>
-        <span aria-hidden="true">+</span>
-      </button>
+              <div class="btn-pill-area btn-pill-area--numbers">
+                <button type="button" class="btn js-num-up" aria-controls="unique_ID">
+                  <span class="is-visually-hidden">Increase</span>
+                  <span aria-hidden="true">+</span>
+                </button>
 
-      <button type="button" class="btn js-num-down" aria-controls="unique_ID">
-        <span class="is-visually-hidden">Decrease</span>
-        <span aria-hidden="true">-</span>
-      </button>
-    </div> <!-- end .btn-pill-area--numbers -->
-  </div> <!-- end .number-input-area -->
-</div>
-
-<div class="form-row">
-  <label for="unique_ID2">
-    Label:
-  </label>
-  <div class="number-input-area">
-    <input type="number"
-           id="unique_ID2"
-           name="unique_ID2"
-           min="1"
-           step="2"
-           value="1"
-           class="js-numbler" />
-
-    <div class="btn-pill-area btn-pill-area--numbers">
-      <button type="button" class="btn js-num-up" aria-controls="unique_ID2">
-        <span class="is-visually-hidden">Increase</span>
-        <span aria-hidden="true">+</span>
-      </button>
-
-      <button type="button" class="btn js-num-down" aria-controls="unique_ID2">
-        <span class="is-visually-hidden">Decrease</span>
-        <span aria-hidden="true">-</span>
-      </button>
-    </div> <!-- end .btn-pill-area--numbers -->
-  </div> <!-- end .number-input-area -->
+                <button type="button" class="btn js-num-down" aria-controls="unique_ID">
+                  <span class="is-visually-hidden">Decrease</span>
+                  <span aria-hidden="true">-</span>
+                </button>
+              </div> <!-- end .btn-pill-area--numbers -->
+            </div> <!-- end .number-input-area -->
           </div>
+
+          <div class="form-row">
+            <label for="unique_ID2">
+              Label:
+            </label>
+            <div class="number-input-area">
+              <input type="number"
+                     id="unique_ID2"
+                     name="unique_ID2"
+                     min="1"
+                     step="2"
+                     value="1"
+                     class="js-numbler" />
+
+              <div class="btn-pill-area btn-pill-area--numbers">
+                <button type="button" class="btn js-num-up" aria-controls="unique_ID2">
+                  <span class="is-visually-hidden">Increase</span>
+                  <span aria-hidden="true">+</span>
+                </button>
+
+                <button type="button" class="btn js-num-down" aria-controls="unique_ID2">
+                  <span class="is-visually-hidden">Decrease</span>
+                  <span aria-hidden="true">-</span>
+                </button>
+              </div> <!-- end .btn-pill-area--numbers -->
+            </div> <!-- end .number-input-area -->
+          </div>
+
         </div> <!-- end .examples -->
       </section> <!-- end #demo -->
 
       <section id="markup">
-        <h3>Initial Mark-up:</h3>
+        <h3>
+          Initial Mark-up:
+        </h3>
         <p>
           Below you'll find the mark-up needed to get Numbler up and running on your website/application.
         </p>
+
         <pre><code></code></pre>
 
         <p>
@@ -103,7 +109,9 @@
 
 
       <section id="support">
-        <h3>Support</h3>
+        <h3>
+          Support
+        </h3>
         <p>
           Numbler.js has been tested in all modern browsers:
         </p>
@@ -124,7 +132,9 @@
 
 
       <section id="contributers">
-        <h3>Contributors</h3>
+        <h3>
+          Contributors
+        </h3>
         <p>
           Thanks goes out to <a href="https://github.com/wwnjp">Josh Drumm</a> and <a href="https://github.com/mattcass">Matt Casserly</a> for helping me test/develop this plug-in. And to <a href="https://github.com/jpamental">Jason Pamental</a> for coming up with a much better name for it than I had originally intended.
         </p>
@@ -142,7 +152,7 @@
           $cleanHTML = $grabHTML.replace(/</g, '&lt;');
       $('#markup code').html($cleanHTML);
     </script>
-    <script src="numbler.min.js"></script>
+    <script src="assets/numbler.min.js"></script>
 
   </body>
 </html>
