@@ -13,7 +13,7 @@
   // Namespacing
   Numbler.NS = "Numbler";
   Numbler.AUTHOR = "Scott O'Hara";
-  Numbler.VERSION = "0.0.1";
+  Numbler.VERSION = "0.1.0";
   Numbler.LICENSE = "https://github.com/scottaohara/accessible-components/blob/master/LICENSE.md";
 
 
